@@ -1,0 +1,21 @@
+program execution:
+	
+brief description:We have two programs 1)encryption 2)decryption.
+	        The encryption program encrypts the inputfile.txt and generates an encrypted  file called e_file.txt.
+	        The decryption program requires the e_file.txt as an input and also requires the private key to 
+	        decrypt the encrypted file and genarates a file called d_file.txt which is similar to inputfile.txt.
+
+procedure for    
+execution:        1)make an inputfile.txt with the required input(numbers should be input vertically)
+	     2)Run the files in Encryption program.
+	     3)Note down the private key which consists of (d,n).
+	     4)Check for the e_file.txt generated.
+	     5)Copy that file into the decryption folder
+	     6)Run the files in the Decryption folder.
+	     7)Enter the private key(d,n).
+	     8)Look for the file d_file.txt being generated. 
+	     9)d_file.txt and inputfile.txt are same. 
+
+inputfile.txt 	  : INPUT file consisting of numbers to be encrypted.
+e_file.txt       : ENCRYPTED file.
+d_file.txt       : DECRYPTED file (same as inputfile.txt).	
